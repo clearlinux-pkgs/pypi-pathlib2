@@ -4,7 +4,7 @@
 #
 Name     : pathlib2
 Version  : 2.3.2
-Release  : 1
+Release  : 2
 URL      : https://github.com/mcmtroffaes/pathlib2/archive/2.3.2.tar.gz
 Source0  : https://github.com/mcmtroffaes/pathlib2/archive/2.3.2.tar.gz
 Summary  : No detailed summary available
@@ -13,7 +13,6 @@ License  : MIT
 Requires: pathlib2-license = %{version}-%{release}
 Requires: pathlib2-python = %{version}-%{release}
 Requires: pathlib2-python3 = %{version}-%{release}
-Requires: python-mock
 Requires: six
 BuildRequires : buildreq-distutils3
 BuildRequires : six
@@ -58,7 +57,8 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1539722845
+export SOURCE_DATE_EPOCH=1545492861
+export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
 
 %install
