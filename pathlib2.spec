@@ -4,7 +4,7 @@
 #
 Name     : pathlib2
 Version  : 2.3.3
-Release  : 8
+Release  : 9
 URL      : https://github.com/mcmtroffaes/pathlib2/archive/2.3.3.tar.gz
 Source0  : https://github.com/mcmtroffaes/pathlib2/archive/2.3.3.tar.gz
 Summary  : No detailed summary available
