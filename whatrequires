@@ -2,3 +2,4 @@
 importlib_metadata
 pytest
 python-zstandard
+virtualenv
