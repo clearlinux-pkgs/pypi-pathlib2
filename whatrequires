@@ -1,5 +1,8 @@
 # This file contains recursive sources that require this package
+azure-datalake-store
 importlib_metadata
+msal-extensions
+pickleshare
 pytest
 python-zstandard
 virtualenv
