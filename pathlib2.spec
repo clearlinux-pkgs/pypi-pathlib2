@@ -4,7 +4,7 @@
 #
 Name     : pathlib2
 Version  : 2.3.6
-Release  : 26
+Release  : 27
 URL      : https://github.com/mcmtroffaes/pathlib2/archive/2.3.6/pathlib2-2.3.6.tar.gz
 Source0  : https://github.com/mcmtroffaes/pathlib2/archive/2.3.6/pathlib2-2.3.6.tar.gz
 Summary  : Object-oriented filesystem paths
