@@ -4,7 +4,7 @@
 #
 Name     : pathlib2
 Version  : 2.3.6
-Release  : 29
+Release  : 30
 URL      : https://github.com/mcmtroffaes/pathlib2/archive/2.3.6/pathlib2-2.3.6.tar.gz
 Source0  : https://github.com/mcmtroffaes/pathlib2/archive/2.3.6/pathlib2-2.3.6.tar.gz
 Summary  : Object-oriented filesystem paths
@@ -13,9 +13,8 @@ License  : MIT
 Requires: pathlib2-license = %{version}-%{release}
 Requires: pathlib2-python = %{version}-%{release}
 Requires: pathlib2-python3 = %{version}-%{release}
-Requires: six
 BuildRequires : buildreq-distutils3
-BuildRequires : six
+BuildRequires : pypi(six)
 
 %description
 pathlib2
@@ -60,7 +59,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1631314203
+export SOURCE_DATE_EPOCH=1650521475
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
