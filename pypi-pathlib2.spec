@@ -4,7 +4,7 @@
 #
 Name     : pypi-pathlib2
 Version  : 2.3.7.post1
-Release  : 36
+Release  : 37
 URL      : https://files.pythonhosted.org/packages/31/51/99caf463dc7c18eb18dad1fffe465a3cf3ee50ac3d1dccbd1781336fe9c7/pathlib2-2.3.7.post1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/31/51/99caf463dc7c18eb18dad1fffe465a3cf3ee50ac3d1dccbd1781336fe9c7/pathlib2-2.3.7.post1.tar.gz
 Summary  : Object-oriented filesystem paths
